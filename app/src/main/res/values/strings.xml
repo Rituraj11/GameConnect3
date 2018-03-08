@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Game Connect 3</string>
+    <string name="image1">Image1</string>
+    <string name="gane_over">Game Over</string>
+    <string name="play_again">Play Again</string>
+    <string name="Tic_">Tic Tac Toe</string>
+    <string name="Tic_Tac_Toe">tic_tac_toe</string>
+    <string name="my_game">Tic Tac Toe</string>
+    <string name="draw_messege">It\'s a Draw</string>
+    <string name="ttt_logo">LOGO 1</string>
+    <string name="ttt_logo_1">LOGO 1</string>
+</resources>

@@ -1,0 +1,28 @@
+package com.example.hp.gameconnect3;
+
+
+import android.content.Intent;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class First_Screen extends AppCompatActivity {
+
+    private static int SPLASH_TIME_OUT =2000;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_first__screen);
+
+        new Handler( ).postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent homeIntent = new Intent(First_Screen.this, First_Activity.class);
+                startActivity(homeIntent);
+                finish();
+            }
+        },SPLASH_TIME_OUT);
+
+    }
+}
